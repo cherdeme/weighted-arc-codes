@@ -1,14 +1,21 @@
 # Weighted Arc-Based Cyclic Codes
-[![Verify Magma Code](https://github.com/cherdeme/weighted-arc-codes/actions/workflows/verify_magma.yml/badge.svg)](https://github.com/cherdeme/weighted-arc-codes/actions/workflows/verify_magma.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Magma](https://img.shields.io/badge/Magma-V2.27-blue)](http://magma.maths.usyd.edu.au/magma/)
 [![Research](https://img.shields.io/badge/Research-Post--Quantum%20Cryptography-purple)](https://en.wikipedia.org/wiki/Post-quantum_cryptography)
-[![GitHub stars](https://img.shields.io/github/stars/cherdeme/weighted-arc-codes?style=social)](https://github.com/cherdeme/weighted-arc-codes/stargazers)
+[![Verify Magma Code](https://github.com/cherdeme/weighted-arc-codes/actions/workflows/verify_magma.yml/badge.svg)](https://github.com/cherdeme/weighted-arc-codes/actions/workflows/verify_magma.yml)
 
 Magma implementation of weighted arc-based cyclic codes for post-quantum cryptography.
 
-...
-
+## Table des matières
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Files Structure](#files-structure)
+- [Quick Start](#quick-start)
+- [Examples](#examples)
+- [Results](#results)
+- [Citation](#citation)
+- [License](#license)
 ## Overview
 
 This repository contains Magma code for constructing and testing weighted arc-based cyclic codes, as described in the paper "Weighted Arc-Based Cyclic Codes: A Geometric Construction for Post-Quantum Cryptography".
