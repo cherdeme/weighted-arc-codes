@@ -51,6 +51,7 @@ function EvaluateMonomialsOnPoints(mons, pts)
     return M;
 end function;
 
+// Version corrigée de RandomNonZeroWeights dans conic_utils.m
 function RandomNonZeroWeights(F, n)
     // Generate n random non-zero elements of F
     weights := [];
