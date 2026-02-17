@@ -1,5 +1,4 @@
 # Weighted Arc-Based Cyclic Codes
-<!-- Badges : à copier-coller en haut du README, sous le titre principal -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Magma](https://img.shields.io/badge/Magma-V2.27-blue)](http://magma.maths.usyd.edu.au/magma/)
@@ -7,6 +6,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/cherdeme/weighted-arc-codes?style=social)](https://github.com/cherdeme/weighted-arc-codes/stargazers)
 
 Magma implementation of weighted arc-based cyclic codes for post-quantum cryptography.
+
+...
 
 ## Overview
 
