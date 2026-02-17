@@ -1,0 +1,50 @@
+name: Verify Magma Code
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Check file existence
+      run: |
+        echo "Vérification de la présence des fichiers Magma..."
+        
+        # Liste des fichiers à vérifier
+        files=(
+          "magma/utils/conic_utils.m"
+          "magma/mds_test.m"
+          "magma/examples/q11_d3.m"
+        )
+        
+        for file in "${files[@]}"; do
+          if [ -f "$file" ]; then
+            echo "✓ $file trouvé"
+          else
+            echo "✗ $file manquant"
+            exit 1
+          fi
+        done
+        
+        echo "✅ Tous les fichiers sont présents"
+    
+    - name: Validate Magma syntax
+      run: |
+        echo "Validation basique - Les vrais tests Magma viendront plus tard"
+        
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-results
+        path: |
+          *.log
