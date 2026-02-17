@@ -1,0 +1,35 @@
+# Fichier: CITATION.cff
+cff-version: 1.2.0
+message: "Si vous utilisez ce logiciel dans vos travaux, veuillez le citer en utilisant les métadonnées ci-dessous."
+title: "Weighted Arc-Based Cyclic Codes"
+authors:
+  - family-names: "cherdeme"
+    given-names: ""
+    # orcid: "https://orcid.org/VOTRE-ORCID"  # Décommentez et ajoutez votre ORCID si vous en avez un
+abstract: "Code Magma pour la construction et le test de codes cycliques basés sur des arcs pondérés, destinés à la cryptographie post-quantique."
+repository-code: "https://github.com/cherdeme/weighted-arc-codes"
+license: MIT
+version: 1.0.0
+date-released: "2026-02-17"
+keywords:
+  - "post-quantum cryptography"
+  - "coding theory"
+  - "finite geometry"
+  - "Magma"
+  - "cyclic codes"
+
+# Pour citer l'article associé (si tu veux le mettre en avant plutôt que le code)
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "cherdeme"
+      given-names: ""
+  title: "Weighted Arc-Based Cyclic Codes: A Geometric Construction for Post-Quantum Cryptography"
+  # doi: "10.XXXX/XXXXX"  # Ajoute le DOI de ton article quand tu en auras un
+  journal: "Designs, Codes and Cryptography"
+  year: 2026
+  month: 2
+  # volume: X
+  # issue: X
+  # start: X
+  # end: X
